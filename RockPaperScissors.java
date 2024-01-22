@@ -1,5 +1,6 @@
 /*
  * Rock paper scissors game
+ * More efficient but longer than recursive RPS w time complexity O(1)
  */
 import java.util.Scanner;
 import java.util.Random;
@@ -10,7 +11,6 @@ public class RockPaperScissors {
         Scanner sc = new Scanner(System.in);
         boolean gameIsRunning = false;
         String userMove, computerMove;
-        // array with 
         String [] moves = {"rock", "paper", "scissors"};
         Random rand = new Random();
 
